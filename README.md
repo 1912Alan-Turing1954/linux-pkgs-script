@@ -1,1 +1,1 @@
-# linux-pkgs-scripts
+# linux-pkgs-script
