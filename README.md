@@ -1,8 +1,9 @@
 # *linux-pkgs-script*
 
-## These are bash instalation file for my most used softwares and applications on linux systems.
+### These are bash instalation file for my most used softwares and applications on linux systems.
+### It has install bash files along with removal files. They are used for a cleaned slate linux distro with no packages downloaded yet.
 
-### It has install bash files along with removal files.
+## Warning: the files/applications that will be installed will be a list of my most used applications and softwares.
 
 # Step 1:
 ### Clone the repository to access the primary scripts.
@@ -11,7 +12,7 @@
 ~~~
 
 # Step 2:
-## Cd into the directory, follow it with a ls to view said files.
+## Cd into the directory/repository you previously cloned.
 ~~~
   Cd linux-pkgs-script
 ~~~
