@@ -7,3 +7,7 @@ for i in "${PKGS[@]}"; do
         sudo apt remove "$i" -y
     fi
 done
+
+sudo apt update
+
+sudo apt remove brave-browser
