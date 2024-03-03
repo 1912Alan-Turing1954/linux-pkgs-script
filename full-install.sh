@@ -7,8 +7,8 @@ run_script() {
 
 # List of shell scripts to run
 scripts_to_run=(
-    "scripts/install-pkgs.sh"
-    "scripts/kde-install.sh"
+    "scripts/install/install-pkgs.sh"
+    "scripts/install/kde-install.sh"
     
 )
 

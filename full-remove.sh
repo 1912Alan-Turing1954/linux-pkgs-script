@@ -7,8 +7,8 @@ run_script() {
 
 # List of shell scripts to run
 scripts_to_run=(
-    "scripts/remove-pkgs.sh"
-    "scripts/kde-remove.sh"
+    "scripts/remove/remove-pkgs.sh"
+    "scripts/remove/kde-remove.sh"
     
 )
 
