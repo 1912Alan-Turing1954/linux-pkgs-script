@@ -24,4 +24,4 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 
 sudo apt install code -y
 
-sudo apt update
+sudo apt update -y && sudo apt upgrade -y
