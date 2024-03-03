@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-declare -a PKGS=(gimp nmap vscode htop neovim vim virtualbox)
+declare -a PKGS=(gimp nmap htop neovim vim virtualbox)
 for i in "${PKGS[@]}"; do
     check=$(command -v "$i")
     if [[ $? -ne 0 ]]; then
@@ -8,6 +8,10 @@ for i in "${PKGS[@]}"; do
     fi
 done
 
-sudo apt update
+sudo apt remove brave-browser -y
 
-sudo apt remove brave-browser
+sudo apt remove software-properties-common apt-transport-https wget -y
+
+sudo apt remove code -y
+
+sudo apt update
