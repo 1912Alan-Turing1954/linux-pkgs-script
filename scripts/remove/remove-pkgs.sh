@@ -14,4 +14,6 @@ sudo apt remove software-properties-common apt-transport-https wget -y
 
 sudo apt remove code -y
 
+sudo apt autoremove
+
 sudo apt update -y && sudo apt upgrade -y
