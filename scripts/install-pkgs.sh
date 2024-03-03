@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-declare -a PKGS=(gimp nmap htop neovim vim virtualbox ranger)
+declare -a PKGS=(gimp nmap htop neovim vim virtualbox ranger dolphin)
 for i in "${PKGS[@]}"; do
     check=$(command -v "$i")
     if [[ $? -ne 0 ]]; then
